@@ -11,8 +11,8 @@ driver = webdriver.Firefox(executable_path="C:\chromedriver_win32\geckodriver.ex
 wait = WebDriverWait(driver, 20)
 
 driver.get("http://unlimitedmailinglists.com/site/auth/login.asp")
-driver.find_element_by_name("Email").send_keys("dmamann@aol.com")
-driver.find_element_by_name("Password").send_keys("Passc0de")
+driver.find_element_by_name("Email").send_keys("")#ADD EMAIL
+driver.find_element_by_name("Password").send_keys("")#ADDPASSWORD
 driver.find_element_by_css_selector("input[alt=Submit]").click()
 m=1
 i='Q'
